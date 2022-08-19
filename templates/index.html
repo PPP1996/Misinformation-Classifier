@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Misinformation Classifier</title>
+    
+</head>
+
+<body>
+
+    Misinformation Classifier
+
+    <form action="/predict" method="POST">
+
+        <label>Text</label> <input type="text" name="text"> <br><br>
+        <input type="submit">
+
+        <br>
+
+        {{ prediction }}
+
+    </form>
+
+
+</body>
+
+
+</html>
